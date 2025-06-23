@@ -6,8 +6,10 @@ Este repositório contém toda a documentação e artefatos referentes ao projet
 Estabelecer um ambiente multi-cloud entre as plataformas Azure e AWS, configurando uma VPN Site-to-Site que possibilite a comunicação direta e segura entre máquinas virtuais privadas, utilizando apenas endereços IP internos (sem exposição pública).
 
 🧰 Recursos Utilizados
+
 🔵 Microsoft Azure
 Serviço	Descrição
+
 Virtual Network (VNet)	Rede virtual principal da Azure
 Subnet Gateway	Subnet reservada exclusivamente para o VPN Gateway
 Subnet Privada	Subnet onde a máquina virtual Debian foi provisionada
@@ -17,6 +19,7 @@ Virtual Machine	Instância privada (Debian 12 - tipo t2.micro)
 
 🟠 Amazon Web Services (AWS)
 Serviço	Descrição
+
 VPC (Virtual Private Cloud)	Rede virtual principal da AWS
 Subnet Privada	Subnet onde a instância EC2 foi provisionada
 EC2 Instance	Instância privada (Ubuntu - tipo t2.micro)
